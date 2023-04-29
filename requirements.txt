@@ -1,0 +1,5 @@
+Django>=3.2.4
+Keras>=2.4.3
+tensorflow>=2.4.0
+Pillow>=8.2.0
+numpy>=1.19.5
