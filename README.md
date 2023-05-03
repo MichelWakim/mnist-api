@@ -3,7 +3,7 @@
 This repository contains a Django web application that allows users to draw a digit and get a prediction from a convolutional neural network (CNN) trained on the MNIST dataset. The app is containerized with Docker for easy deployment.
 
 ## Table of Contents
-- [Clonning the App](#clonning-the-app)
+- [Cloning the App](#cloning-the-app)
 - [Dependencies](#dependencies)
 - [Running the App with Docker](#running-the-app-with-docker)
 - [Alternative: Running the App without Docker](#alternative-running-the-app-without-docker)
@@ -12,14 +12,14 @@ This repository contains a Django web application that allows users to draw a di
 - [Running Unit Tests](#running-unit-tests)
 - [Acknowledgments](#acknowledgments)
 
-## Clonning the App
+## Cloning the App
 1. Clone the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/django-mnist.git
+git clone git@github.com:MichelWakim/mnist-api.git
 ```
 2. Change into the project directory
 ```bash
-cd django-mnist
+mnist-api
 ```
 
 ## Dependencies
@@ -48,7 +48,7 @@ docker run -p 8000:8000 django-mnist
 
 Once the container is running, you can access the web app by opening your web browser and navigating to [http://localhost:8000](http://localhost:8000).
 
-##Alternative: Running the App without Docker
+## Alternative: Running the App without Docker
 If you prefer to run the app without Docker, you can follow these steps:
 
 1. Create a virtual environment and activate it:
@@ -68,7 +68,7 @@ python manage.py runserver
 ```
 Access the web app by opening your web browser and navigating to http://localhost:8000.
 
-##Model Architecture
+## Model Architecture
 
 The model used in this app is a simple CNN that consists of two convolutional layers, two max pooling layers, and two fully connected layers. The model achieves an accuracy of over 99% on the test set after training for 10 epochs.
 
@@ -119,7 +119,7 @@ python manage.py test
 ```
 This will run all of the unit tests in the tests directory and display the results in your terminal.
 
-##Acknowledgments
+## Acknowledgments
 
 This app is based on the TensorFlow Tutorials and the Django Documentation.
 
