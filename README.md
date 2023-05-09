@@ -19,7 +19,7 @@ git clone git@github.com:MichelWakim/mnist-api.git
 ```
 2. Change into the project directory
 ```bash
-mnist-api
+cd mnist-api
 ```
 
 ## Dependencies
